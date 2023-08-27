@@ -70,7 +70,7 @@ const AdminPage = () => {
     return (
       <div className="home1">
         <Sidebar />
-        <div className="mainScreen2">
+        <div className="mainScreen3">
           <div>
             <h1>Dashboard</h1>
           </div>

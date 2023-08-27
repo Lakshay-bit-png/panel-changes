@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import { useNavigate } from "react-router-dom";
 import Sidebar from "../Sidebar";
+import New from "../NewUser";
 
 export const NewAdmin = () => {
   const displayName = sessionStorage.getItem("username");
@@ -65,13 +66,16 @@ export const NewAdmin = () => {
 
   if (displayRole === "Owner") {
     return (
-      <div className="macbook-pro">
+      
+      <div className="macbook-proadmin">
+       
         <Sidebar />
-        <div className="mainScreen2">
+        <div className="mainScreen2-admin">
+          
           <div>
-            <h1 className="heading">Add New Admin</h1>
+            <h1 className="heading-admin">Add New Admin</h1>
           </div>
-          <div className="input1">
+          <div className="input1-admin">
             UserId:{" "}
             <input
               type="text"
@@ -81,7 +85,7 @@ export const NewAdmin = () => {
               value={userId}
             />
           </div>
-          <div className="input2">
+          <div className="input2-admin">
             UserName:{" "}
             <input
               type="text"
@@ -91,7 +95,7 @@ export const NewAdmin = () => {
               value={userName}
             />
           </div>
-          <div className="input3">
+          <div className="input3-admin">
             Password:{" "}
             <input
               type="text"
@@ -101,7 +105,7 @@ export const NewAdmin = () => {
               value={userPassword}
             />
           </div>
-          <div className="input3">
+          <div className="input3-admin">
             Referral : {" "}
             <input
               type="text"

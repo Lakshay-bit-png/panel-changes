@@ -45,6 +45,7 @@ body {
   overflow-x: hidden;
 }
 /*---------------Sidepanel css-----------------------*/
+
 .hamburg{position:absolute;top:5px;left:5px;display:flex;flex-direction: column;gap:1px;}
 .line-1,.line-2,.line-3{width:20px;height:2px;background-color:black;border-radius:15px;}
 .sidepanel {
@@ -101,7 +102,6 @@ body {
   transform: scale(120%);
 }
 /*---------------Top hEader----------*/
-
 .top-header {
   position: relative;
  
@@ -276,9 +276,9 @@ body {
 /*--------------------View Hosts-----------------*/
 .main-content-2 {
   position: relative;
-  
+  left: 300px;
   display: flex;
-  width: calc(100vw);
+  width: calc(100vw - 300px);
   height: 100vh;
   flex-direction: column;
   gap: 20px;
@@ -605,7 +605,7 @@ td {
 .main-content-5 {
   position: relative;
   width: calc(100vw);
-  
+ 
   display: flex;
 
   align-items: center;
@@ -795,6 +795,7 @@ td {
   border:1px solid gray;
   padding: 20px;
   display:none;
+  
 }
 
 .ownername {
@@ -1084,3 +1085,99 @@ td {
 }
 
 
+
+
+/*----*/
+.mainScreen3 {
+  margin-left:auto;margin-right:auto;
+
+  
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+
+
+
+.heading-admin {
+  font-size: 50px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 5%;
+  margin-left: 13%;
+  text-align: start;
+}
+
+.button-1-admin {
+  background-color: #4642ff;
+  border-radius: 5px;
+  height: 53px;
+  position: relative;
+  top: 50px;
+  left: 260px;
+  width: 186px;
+}
+
+.button-1-admin {
+  color: #ffffff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  /* position: absolute; */
+  /* top: 55%; */
+  white-space: nowrap;
+}
+
+.input1-admin {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 5%;
+  margin-left: 13%;
+  text-align: start;
+  height: 50px;
+}
+
+.input2-admin {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 13%;
+  text-align: start;
+  height: 50px;
+}
+
+.input3-admin {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 13%;
+  text-align: start;
+  height: 50px;
+}
+
+.input4-admin {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 13%;
+  text-align: start;
+  height: 50px;
+}
+
+.textbox-admin {
+  margin-top: 5px;
+  font-size: large;
+  font-weight: 600;
+  padding-left: 10px;
+  border-radius: 10px;
+  height: 40px;
+  width: 50%;
+  background-color: #ffffff;
+}

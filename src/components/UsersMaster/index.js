@@ -282,31 +282,7 @@ function UsersMaster() {
               ))}
             </div>
           </div>
-          <div className="Room-1">
-            <div className="header-room" style={{display:"flex"}}>
-              {room}
-              <button
-              style={{backgroundColor:"red", color:"white", border:"none", borderRadius:"5px", padding:"5px",}}
-                // onClick={() => handleEndRoom(room)}
-              >
-                End Room
-              </button>
-              <button
-              style={{backgroundColor:"red", color:"white", border:"none", borderRadius:"5px", padding:"5px",}}
-                // onClick={() => handleEndRoom(room)}
-              >
-                Mute All
-              </button>
-              </div>
-          <div className="user-boxes">
-            {usersGrouped[room].map((user, index) => (
-                <div key={index} style={{display:'flex',gap:'5px',height:'auto',flexWrap:'wrap',justifyContent:'center'}}>
-                  <div className="rounded-box">{user.username}</div>
-                  
-                </div>
-              ))}
-            </div>
-          </div>
+          
           
           
           

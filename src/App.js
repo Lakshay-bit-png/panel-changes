@@ -9,16 +9,12 @@ import AppInfo from './components/AppInfo';
 import AdminPanel from './routes';
 
 
-
-
-
 function App() {
   return (
     <>
   
 
 <AdminPanel/>
-
 
     
     </>
